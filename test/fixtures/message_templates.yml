@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  company: 
+  name: MyString
+  prefix: MyString
+  partial: false
+  source: MyText
+  formats: MyString
+  locale: MyString
+  handlers: MyString
+
+two:
+  company: 
+  name: MyString
+  prefix: MyString
+  partial: false
+  source: MyText
+  formats: MyString
+  locale: MyString
+  handlers: MyString

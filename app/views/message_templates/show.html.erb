@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Company:</b>
+  <%= @company.name %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @message_template.name %>
+</p>
+
+<p>
+  <b>Prefix:</b>
+  <%= @message_template.prefix %>
+</p>
+
+<p>
+  <b>Partial:</b>
+  <%= @message_template.partial %>
+</p>
+
+<p>
+  <b>Source:</b>
+  <%= @message_template.source %>
+</p>
+
+<p>
+  <b>Formats:</b>
+  <%= @message_template.formats %>
+</p>
+
+<p>
+  <b>Locale:</b>
+  <%= @message_template.locale %>
+</p>
+
+<p>
+  <b>Handlers:</b>
+  <%= @message_template.handlers %>
+</p>
+
+
+<%= link_to 'Edit', edit_company_message_template_path(@company,@message_template) %> |
+<%= link_to 'Back', company_message_templates_path(@company) %>
